@@ -104,6 +104,7 @@ main>div:nth-child(5) {
 }
 
 .footer p {
+    display:block;
     margin-top:3rem;
     box-sizing: border-box;
     width: 100%;
