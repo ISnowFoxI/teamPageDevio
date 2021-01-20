@@ -1,0 +1,259 @@
+/*Initial set up */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #000000;
+}
+
+body {
+    margin: 7.6% 15.2% 0 15.2%;
+}
+
+/*End of initial setup*/
+
+/*Header */
+
+header h1 {
+    display: inline-block;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 3.6rem;
+    line-height: 4.8rem;
+    letter-spacing: -0.045em;
+    vertical-align: top;
+    height: 12.4rem;
+}
+
+header .who-we-are {
+    position: relative;
+    font-size: 1.8rem;
+    float: right;
+    height: 12.4rem;
+}
+
+header .who-we-are h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 4.8rem;
+}
+
+header .who-we-are p {
+    max-width: 43.9rem;
+}
+
+/*End of Headder*/
+
+/*Main or Image Container set up*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: 9.6rem 0;
+}
+
+.single-image-container {
+    padding: 0 2rem;
+    width: 36.3rem;
+    margin-top: 9.6rem;
+}
+
+main>div:nth-child(2) {
+    margin-top: 20rem;
+}
+
+main>div:nth-child(5) {
+    margin-top: 20rem;
+}
+
+.single-image-container .person-status {
+    position: absolute;
+    font-family: "PT Serif";
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    text-transform: uppercase;
+    transform: rotateZ(90deg);
+    left: 30rem;
+    top: 4.7rem;
+    width: 11rem;
+}
+
+.figure-class img {
+    width: 31.8rem;
+}
+
+.single-image-container figcaption {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    width: 100%;
+}
+
+.footer p {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.7rem;
+    padding-bottom: 3.9rem;
+    font-size: 1.4rem;
+}
+
+.footer p a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    color: #CC5748;
+    text-decoration: none;
+}
+
+/*End of main or image container set up*/
+
+@media only screen and (max-width:1600px) and (min-width:1326px) {
+    .single-image-container {
+        width: 30.3rem;
+        margin-top: 9.6rem;
+    }
+    .single-image-container .person-status {
+        left: 24rem;
+    }
+    .figure-class img {
+        width: 25.8rem;
+    }
+}
+
+@media only screen and (max-width:1326px) and (min-width:1150px) {
+    /*Header */
+    header {
+        margin: 0 25%;
+    }
+    header h1 {
+        height: auto;
+    }
+    /*End of Headder*/
+    .single-image-container {
+        width: 25.3rem;
+        margin-top: 9.6rem;
+    }
+    .single-image-container .person-status {
+        left: 21rem;
+    }
+    .figure-class img {
+        width: 22.8rem;
+    }
+    main>div:nth-child(2) {
+        margin-top: 20rem;
+    }
+    main>div:nth-child(5) {
+        margin-top: 20rem;
+    }
+}
+
+@media only screen and (max-width:1150px) and (min-width:895px) {
+    /*Header */
+    header {
+        margin: 0 25%;
+    }
+    header h1 {
+        height: auto;
+    }
+    /*End of Headder*/
+    .single-image-container {
+        width: 30.3rem;
+        margin-top: 9.6rem;
+    }
+    .single-image-container .person-status {
+        left: 24rem;
+    }
+    .figure-class img {
+        width: 25.8rem;
+    }
+    main>div:nth-child(n) {
+        margin-top: 5rem;
+    }
+    main>div:nth-child(2n) {
+        margin-top: 20rem;
+    }
+}
+
+@media only screen and (max-width:895px) and (min-width:685px) {
+    body {
+        margin: 3.2% 7.6% 0 7.6%;
+    }
+    /*Header */
+    header {
+        margin: 0 25%;
+    }
+    header h1 {
+        height: auto;
+    }
+    /*End of Headder*/
+    .single-image-container {
+        width: 28.3rem;
+        margin-top: 9.6rem;
+    }
+    .single-image-container .person-status {
+        left: 22rem;
+        top: 4.7rem;
+    }
+    .figure-class img {
+        width: 23.8rem;
+    }
+    main>div:nth-child(n) {
+        margin-top: 5rem;
+    }
+    main>div:nth-child(2n) {
+        margin-top: 20rem;
+    }
+}
+
+@media only screen and (max-width:682px) {
+    /*Header */
+    header {
+        margin: 0 auto;
+        height: auto;
+    }
+    header h1 {
+        margin-bottom: 3.8rem;
+        font-size: 3.6rem;
+        height: auto;
+    }
+    header .who-we-are {
+        position: relative;
+        font-size: 1.4rem;
+        float: none;
+    }
+    /*End of Headder*/
+    .team-images {
+        margin: 0;
+    }
+    .single-image-container {
+        width: 23rem;
+        padding: 0;
+        margin-top: 1.6rem !important;
+        margin: 0 auto;
+    }
+    .single-image-container .person-status {
+        left: 17rem;
+    }
+    .figure-class img {
+        width: 21rem;
+    }
+}
