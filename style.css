@@ -115,6 +115,7 @@ main>div:nth-child(5) {
 }
 
 .footer p a {
+    margin-top:3rem;
     color: #333333;
     text-decoration: none;
 }
